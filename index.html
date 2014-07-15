@@ -24,6 +24,27 @@
                 font-size:14px;
                 font-style:italic;
             }
+
+            .text-wrap-right{
+                clear:left;
+                float: right;
+                margin: 5px 0px 10px 10px;
+            }
+
+            .text-wrap-left{
+                clear: right;
+                float: left;
+                margin: 5px 10px 10px 0px;
+            }
+
+            .text-indent {
+                text-indent: 20px;
+            }
+
+            .text-arial {
+                font-family:Arial,Helvetica,Serif;
+                font-size:15px;
+            }
         </style>
         
         <!--/CSS styles-->
@@ -73,35 +94,35 @@
                             <li>
                               <a href="#biography">
                                 <div class="icon icon-user"></div>
-                                <div class="text">about</div>
+                                <div class="text">About</div>
                               </a>
                             </li>  
                             
                             <li>
                               <a href="#project">
                                 <div class="icon icon-folder-open"></div>
-                                <div class="text">projects</div>
+                                <div class="text">Portfolio</div>
                               </a>
                             </li> 
 
                             <li>
                               <a href="#gallery">
                                 <div class="icon icon-picture"></div>
-                                <div class="text">photography</div>
+                                <div class="text">Photography</div>
                               </a>
                             </li>
 
                             <li>
                               <a href="#contact">
                                   <div class="icon icon-envelope"></div>
-                                  <div class="text">contact</div>
+                                  <div class="text">Contact</div>
                               </a>
                             </li>
 
                             <li class="external">
                               <a href="#">
                                   <div class="icon icon-cloud-download"></div>
-                                  <div class="text">download resume</div>
+                                  <div class="text">Download resume</div>
                               </a>
                             </li>
 
@@ -127,10 +148,10 @@
                                 <div class="row">
                                    <!--  <div class="col-sm-2 visible-sm"></div>
                                     <div class="clearfix visible-sm visible-xs"></div> -->
-                                    <div class="col-md-10 col-md-offset-1">
-                                        <div class="title text-left" >
+                                    <div class="col-md-12 col-md-offset-0">
+                                        <div class="title text-left">
                                                 <h1>Bio</h1>
-                                                <h4>Chao-te Andrew Yang</h4>
+                                                <h3>Chao-te Andrew Yang</h3>
                                         </div>
                                         <div class="">
                                             <div class="biothumb" >
@@ -138,12 +159,11 @@
                                             </div>
                                         </div>
                                         <div>
-                                            <p style="font-family:Arial,Helvetica,Serif;font-size:15px">
+                                            <p class="text-arial">
                                                 Andrew (楊肇德) is a software developer focused on web development and back-end business logic.  
-                                                Currently, he is a Java developer, but he also has worked with a variety of topics and languages including 
-                                                Unix system-level programming, linux kernel hacking, mobile development, image processing with Hadoop, and cloud application deployment. 
+                                                Currently, he is a Java developer, but he also has worked with a variety of topics and languages including system-level programming, Linux kernel hacking, mobile development, image processing with Hadoop, and cloud application deployment. 
                                                 </br></br>
-                                                As a driven and active person, Andrew has a wide range of interests, and he is constantly learning new things and new technologies. 
+                                                As a driven and active person, Andrew has a wide range of interests and is constantly learning new technologies. 
                                                 This personal website reflects his passion for technology, art, life, and photography. 
                                                 He holds a BS in Industrial Engineering from Yuan Ze University and an MS in Computer Science from Boston University.
                                             </p>
@@ -159,7 +179,7 @@
                             <div class="section-container">
                                 <div class="row">
                                     <!-- Education & Training -->
-                                    <div class="col-md-5 col-md-offset-1">
+                                    <div class="col-md-6 col-md-offset-0">
                                         <div class="title text-left">
                                             <h2>Education&nbsp;&nbsp;&&nbsp;&nbsp;Training</h2>
                                         </div>
@@ -221,7 +241,7 @@
                                     <!-- End of Education & Training -->
 
                                     <!-- Technical Skills -->
-                                    <div class="col-md-5 col-md-offset-0">
+                                    <div class="col-md-6 col-md-offset-0">
                                         <div class="title text-left">
                                             <h2>Technical Skills</h2>
                                         </div>
@@ -282,7 +302,7 @@
                         <div class="section color-2">
                             <div class="section-container">
                                 <div class="row">
-                                    <div class="col-md-10 col-md-offset-1">
+                                    <div class="col-md-12 col-md-offset-0">
                                         <div class="title text-left">
                                             <h2>Software Projects</h2>
                                             <h5>Click on the timeline to see description</h5>
@@ -302,8 +322,8 @@
                                                     <div class="text row">
                                                         <div class="col-md-12">
                                                             <p>                                                                
-                                                                BaybioManager a desktop application designed for Parisgoshop.com, the application provides system admin the ability to manage transaction records and monitor inventory status on the company's remote server. The application also provide a simplfied workflow to insert transaction data into local ERP system.
-                                                                </br></br>(For full description please visit the projects section)
+                                                                A desktop application designed for Parisgoshop.com. The application provides system admin the ability to manage transaction records and monitor inventory status on the company's remote server. It also provide a simplfied workflow for the admin's daily operation, reducing the time required to manually insert transaction data into the local ERP system.
+                                                                </br></br>(For full description please visit the Portfolio section)
                                                             </p>
                                                         </div>
                                                         </br>
@@ -325,14 +345,8 @@
                                                     <div class="text row">
                                                         <div class="col-md-12">
                                                             <p>
-                                                                Developer (sort by alphabet order):</br>Beth Haines,&nbsp;Chao-te Yang,&nbsp;Chi-chih Hsu,&nbsp;Fliden Demiri,&nbsp;Fyodor Wolf,&nbsp;Gloria Jensen,&nbsp;Imaad Khan,&nbsp;Samuel Tan
-                                                                </br></br>
-                                                                MySurvey is a web application that will provide user the ability to create, take and analyze online surveys. Designed for data analysts from corporations and education sector, or users that are collecting data from a specific group of survey-takers. The application will also provide pre-fabricated tools to speed up survey creation and publication.
-                                                                </br></br>(For full description please visit the Projects section)
-
-
-                                                                <!-- This is a semester long team project for the <i>CS673 Software Engineering</i>. The goal is to create a web application that will provide user the ability to create, take and analyze online surveys.  Our target survey creators will be data analysts from corporations and from the education sector that are collecting data from their designated group of survey-takers. The application will also provide pre-fabricated tools to speed up survey creation and publication. -->
-                                                                
+                                                                A web application that will provide user the ability to create, take and analyze online surveys. Designed for data analysts from corporations and education sector, or users that are collecting data from a specific group of survey-takers. The application will also provide pre-fabricated tools to speed up survey creation and publication.
+                                                                </br></br>(For full description please visit the Portfolio section)
                                                             </p>
                                                         </div>
                                                         </br>
@@ -353,7 +367,7 @@
                                                         <div class="col-md-12">
                                                             <p>
                                                                 This program detects and highlights the well-focused area of the input images. The main task of this program is CPU intensive, but the computation can be broken into multiple small tasks and can be processed more efficiently using distributed system. Built with Hadoop MapReduce framework, the program can be easily configured and deployed to a computer cluster or the cloud.
-                                                                </br></br>(For full description please visit the Projects section)
+                                                                </br></br>(For full description please visit the Portfolio section)
                                                             </p>
                                                         </div>
                                                         </br>
@@ -373,9 +387,9 @@
                                                     <div class="text row">
                                                         <div class="col-md-12">
                                                             <p>
-                                                                This is an online photo album downloader for <a target="_blank" href="http://en.wikipedia.org/wiki/Wretch_(website)">www.wretch.cc</a> (a website owned by Yahoo since 2007, but it has been closed since December 2013). The program allows user to automatically download open albums (publicly visible) of a specific account. It can be configured to manual, semi-auto, and full auto mode using different input parameters. </br></br>
+                                                                Online photo album downloader for <a target="_blank" href="http://en.wikipedia.org/wiki/Wretch_(website)">www.wretch.cc</a> (a website owned by Yahoo since 2007, but it has been closed since December 2013). The program allows user to automatically download open albums (publicly visible) of a specific account. It can be configured to manual, semi-auto, and full auto mode using different input parameters. </br></br>
                                                                 In full auto mode, the program will parse the HTML information found on target account, continuously search for the next available album, and then download the images automatically until it reaches the end of the last album. 
-                                                                </br></br>(For full description please visit the Projects section)
+                                                                </br></br>(For full description please visit the Portfolio section)
                                                             </p>
                                                         </div>
                                                         </br>
@@ -397,11 +411,11 @@
                                                     <div class="text row">
                                                         <div class="col-md-12">
                                                             <p>                                                                
-                                                                The Interactive CPU Scheduling Simulator is an academic project originally designed and created by Jan Horjus and Matthew Powers-Freeling at BU. The application simulates the CPU scheduling mechanism in modern operating systems, it can be used as a tool to analyze new algorithms or to help user better understand popular ones such as FIFO, SJF, Priority Scheduling, and Round-Robin. 
+                                                                Academic project, originally designed and created by Jan Horjus and Matthew Powers-Freeling at BU. The application simulates the CPU scheduling mechanism in modern operating systems, it can be used as a tool to analyze new algorithms or to help user better understand popular ones such as FIFO, SJF, Priority Scheduling, and Round-Robin. 
                                                                 </br></br>
                                                                 In addition to the core functions in the first version, the second version has added the ability to generate random input processes, new algorithms, and statistic data to make it more informative and easier to understand.
 
-                                                                </br></br>(For full description please visit the projects section)
+                                                                </br></br>(For full description please visit the Portfolio section)
                                                             </p>
                                                         </div>
                                                         </br>
@@ -420,7 +434,7 @@
                         <div class="section color-1">
                             <div class="section-container">
                                 <div class="row">
-                                    <div class="col-md-10 col-md-offset-1">
+                                    <div class="col-md-12 col-md-offset-0">
                                         <div class="title text-left">
                                             <h2>Experience&nbsp;&nbsp;&&nbsp;&nbsp;Other Activities</h2>
                                             <h5>Click on the timeline to see description</h5>
@@ -722,190 +736,86 @@
                         <div class="headercontent">
                             <div class="section-container">
                                 <div class="row">
-                                    <div class="col-md-4">
-                                        <h1>My Software Projects</h1>
-                                    </div>
-                                    </br>
-                                    <div class="col-md-8">
+                                    <div class="col-md-12 text-center">
+                                        <h1>Software Portfolio</h1></br>
                                         <p>
-                                            My area of interests include web application, object-oriented problem solving, design pattern, and data visualization. 
-                                            The following are some projects I have worked on during my graduate study at BU. </br>(smaller project or utility programs are not listed here)
+                                            My area of interests include web application, object-oriented problem solving, design pattern, and data visualization.</br>
+                                            The following are some of the projects I have worked on or participated in during my graduate study at BU. </br>(smaller project or utility programs are not listed here)
                                         </p>
                                     </div>
                                 </div>
-
                             </div>
                         </div>
                     </div>
                     <div class="pagecontents">    
-                        <div class="section color-0">
+                        <div class="section color-1">
                             <div class="section-container">
+                                <div class="title text-center"><h3>BaybioManager</h3></div>
                                 <div class="row">
                                     <div class="col-md-12">
-                                        <div class="title text-left">
-                                            <h3>BaybioManager</h3>
-                                        </div>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                            Developed by:&nbsp;&nbsp;Chao-te Yang</br>
+                                            Written in: &nbsp;&nbsp;Java</br>
+                                            </br>
+                                            BaybioManager is a desktop application designed for <a target="_blank" href="http://www.parisgoshop.com">Parisgoshop.com</a>, a cosmetics/organic products vendor.&nbsp;&nbsp; 
+                                            This back-end management application provides system admin the ability to manage transaction records and monitor inventory status in one place, without having to login to different online stores and manually check the quantities in stock. It also provide a simplfied workflow for the admin's daily operation, reducing the time required to manually insert transaction data into their OpenERP system.&nbsp;&nbsp;Currently the application is still under development.
+                                            </br></br> 
+                                            From the technical point of view, the implementation of BaybioManager takes the future growth of the company into consideration and it is designed to be easy-to-maintain and easy-to-extend:
+                                            <div class="image"><a href="img/gallery/800x600.png" class="text-wrap-right popup-with-move-anim"><img alt="image" class="img-responsive" src="img/gallery/320x240.png"></a></div>
+                                            <ul>
+                                                <li>The GUI is built with a self-implemented MVC-like pattern, which separates the codes for manipulating data and displaying results. It requires extra classes to construct such design pattern, but will be easier to add new components in the future.</li></br>
+                                                <li>Data access objects abstracts and isolates the underlying details of database connections, and it will be easier for the developer to switch between different databases or to add new databse connection.</li></br>
+                                                <li>High level concurrency api like SwingWorker also makes it simple to separate the EDT and worker threads.</li>
+                                            </ul>
                                         </p>
-                                        </br></br>
                                     </div>
+                                </div>
+                            <!-- </div> -->
+                                </br></br></br>
+                            <!-- <div class="section color-2">
+                                <div class="section-container"> -->
+                                    <div class="row">
+                                        <div class="col-md-12">
+                                            <div class="title text-center"><h3>MySurvey</h3></div>
+                                            <p>
+                                                Developed by (sort alphabetically):&nbsp;&nbsp;Beth Haines,&nbsp;&nbsp;Chao-te Yang,&nbsp;&nbsp;Chi-chih Hsu,&nbsp;&nbsp;&nbsp;&nbsp;Fliden Demiri,&nbsp;&nbsp;Fyodor Wolf,&nbsp;&nbsp;Gloria Jensen,&nbsp;&nbsp;Imaad Khan,&nbsp;&nbsp;Samuel Tan</br></br>
+                                                Written in: &nbsp;&nbsp;PHP,&nbsp;&nbsp;JavaScript</br>
+                                                GitHub: &nbsp;&nbsp;<a target="_blank" href="https://github.com/fydo23/mySurvey">github.com/fydo23/mySurvey</a></br>
+                                                Project site: &nbsp;&nbsp;<a target="_blank" href="http://ec2-54-191-61-5.us-west-2.compute.amazonaws.com">ec2-54-191-61-5.us-west-2.compute.amazonaws.com</a></br></br>
+                                                
+                                                <div class="image"><a href="img/gallery/800x600.png" class="popup-with-move-anim"><img alt="image" class="text-wrap-right img-responsive" src="img/gallery/320x240.png"></a></div>
+                                                <a target="_blank" href="http://ec2-54-191-61-5.us-west-2.compute.amazonaws.com">MySurvey</a> is a semester long team project for the <i>CS673 Software Engineering</i>.&nbsp;&nbsp;The goal is to create a web application that will provide user the ability to create, take and analyze online surveys.&nbsp;&nbsp;Our target survey creators will be data analysts from corporations and from the education sector that are collecting data from their designated group of survey-takers.&nbsp;&nbsp;The application will also provide pre-fabricated tools to speed up survey creation and publication.
+                                                </br></br>
+                                                There are many related work on the market, some are free , like <a target="_blank" href="https://www.surveymonkey.com/">SurveyMonkey</a> which allow the user to login, create the survey, and view analytic reports, and some are costly but more sophisticated like <a target="_blank" href="http://visimojo.com/">Visimojo</a>.
+                                                </br></br>
+                                                MySurvey offers a range of features geared towards both new survey creators and advanced users. This includes question templates to quickly get started in addition to customizable complex branching, time measurement for each question, and fine-tuned analytic reporting. Survey Monkey and Visimojo each offer many of the features we’re planning in our application, but not all.
+                                                </br></br>
+                                                <div class="image"><a href="img/gallery/800x600.png" class="popup-with-move-anim"><img alt="image" class="text-wrap-left img-responsive" src="img/gallery/320x240.png"></a></div>
+                                                This project follows a non-strict Agile development process, focused on features and collaboration. There are three iterations (excluding the initial planning phase), three weeks each. The initial phase focuses on planning, organization and defining requirements. The other three iterations are more typical Agile iterations, each of them include the following cycle:</br>requirement analysis --> implementation and testing --> update and documentation. 
+                                            </p>
+                                        </div>
+                                    </div>
+                                <!-- </div> -->
+                            <!-- </div> -->
+                                </br></br></br>
+                                <div class="row">
                                     <div class="col-md-12">
-                                        <div class="title text-left">
-                                            <h3>MySurvey</h3>
-                                        </div>
+                                        <div class="title text-center"><h3>MapReduce Focus Area Detector</h3></div>
                                         <p>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                                        </p>
-                                        </br></br>
-                                    </div>
-                                    <!-- <div class="col-md-12">
-                                        <ul class="ul-withdetails">
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png" class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <div class="row">
-                                                    <div class="col-sm-6 col-md-3">
-                                                        <div class="image">
-                                                            <img alt="image" src="img/lab/400x400.png"  class="img-responsive">
-                                                            <div class="imageoverlay">
-                                                                <i class="icon icon-search"></i>
-                                                            </div>
-
-                                                        </div>
-                                                    </div>
-                                                    <div class="col-sm-6 col-md-9">
-                                                        <div class="meta">
-                                                            <h3>Title of Preject</h3>
-                                                            <p>Very short description of the project.</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <div class="details">
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                                                </div>
-                                            </li>
+                                            Developed by:&nbsp;&nbsp;Chao-te Yang</br>
+                                            Written in: &nbsp;&nbsp;Java</br></br>
+                                            <!-- GitHub: &nbsp;&nbsp;<a target="_blank" href="#">Updated soon</a></br> -->
+                                            <div class="image"><a href="img/gallery/800x600.png" class="popup-with-move-anim"><img alt="image" class="text-wrap-left img-responsive" src="img/gallery/320x240.png"></a></div>
+                                            This program detects and highlights the well-focused area of the input images using Hadoop MapReduce framework.&nbsp;&nbsp;It is a cloud-based program capable of distinguishing the difference between a sharp line and a blurred line, and it can be easily configured and deployed to a computer cluster or the cloud.</br></br>
                                             
-                                        </ul>
-                                    </div> -->
+                                            If an object is well-focused in the picture, the details on that object should be very sharp and clear because the pixel's RGB value in that area changes rapidly.&nbsp;&nbsp;If the object is out of focus, the details on that object will be blurred because the pixel's RGB value changes gradually from black to dark gray, from dark gray to light gray, and from light gray to white.</br></br>
+                                            <div class="image"><a href="img/gallery/800x600.png" class="popup-with-move-anim"><img alt="image" class="text-wrap-right img-responsive" src="img/gallery/320x240.png"></a></div>
+                                            The main task of this program involves calculating the difference of the RGB value between any two consecutive pixels, it is CPU intensive, but the computation can be broken into multiple small tasks and can be processed more efficiently using distributed system.</br></br>
+
+                                            There are three stages during the MapReduce process.&nbsp;&nbsp;First, the Builder class writes the pixel information to a text-based file.&nbsp;&nbsp;Secondly, the Mapper class reads the text-based input, calculates the difference, and writes the output to the next stage.&nbsp;&nbsp;Finally, the Reducer class calculates the total score and a new image with hightlighted area will be created after this stage.
+                                        </p>
+                                        </br></br></br>
+                                    </div>
                                 </div>
                             </div>
                         </div>    
