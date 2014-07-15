@@ -752,7 +752,7 @@
                         </div>
                     </div>
                     <div class="pagecontents">    
-                        <div class="section color-0">
+                        <div class="section color-1">
                             <div class="section-container">
                                 <div class="row">
                                     <div class="col-md-12">
@@ -810,7 +810,7 @@
                                             If an object is well-focused in the picture, the details on that object should be very sharp and clear because the pixel's RGB value in that area changes rapidly.&nbsp;&nbsp;If the object is out of focus, the details on that object will be blurred because the pixel's RGB value changes gradually from black to dark gray, from dark gray to light gray, and from light gray to white.</br></br>
                                             <div class="image"><a href="img/gallery/800x600.png" class="popup-with-move-anim"><img alt="image" class="text-wrap-right img-responsive" src="img/gallery/320x240.png"></a></div>
                                             The main task of this program involves calculating the difference of the RGB value between any two consecutive pixels, it is CPU intensive, but the computation can be broken into multiple small tasks and can be processed more efficiently using distributed system.</br></br>
-                                            
+
                                             There are three stages during the MapReduce process.&nbsp;&nbsp;First, the Builder class writes the pixel information to a text-based file.&nbsp;&nbsp;Secondly, the Mapper class reads the text-based input, calculates the difference, and writes the output to the next stage.&nbsp;&nbsp;Finally, the Reducer class calculates the total score and a new image with hightlighted area will be created after this stage.
                                         </p>
                                         </br></br></br>
