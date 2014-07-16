@@ -45,33 +45,6 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	font-weight: 300;
 }
 
-.project-description{
-	font-family:Arial,Helvetica,Serif;
-	font-size:14px;
-	font-style:italic;
-}
-
-.text-wrap-right{
-	clear:left;
-	float: right;
-	margin: 5px 0px 10px 10px;
-}
-
-.text-wrap-left{
-	clear: right;
-	float: left;
-	margin: 5px 10px 10px 0px;
-}
-
-.text-indent {
-	text-indent: 20px;
-}
-
-.text-arial {
-	font-family:Arial,Helvetica,Serif;
-	font-size:15px;
-}
-
 /* mobile menu
  **************************************************/
 .mobilemenu {
@@ -126,9 +99,9 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 	overflow: auto;
 	position: absolute;
 	top: 0;
-	left: 0px;
+	left: 2000px;
 	bottom: 0;
-	width: 100%;
+	width: 85%;
 	background-color: #f7f7f7;
 }
 
@@ -184,7 +157,7 @@ h1,h2,h3,h4,h5,h6,.h1,.h2,.h3,.h4,.h5,.h6 {
 }
 
 #profile .portrate {
-	background-image: url("../img/personal/personal-image.jpg");
+	background-image: url(../img/personal/personal-image.jpg);
 	width: 125px;
 	margin: 0 auto;
 	height: 125px;
@@ -665,7 +638,7 @@ ul.timeline li .data .text {
 
 .ul-withdetails li .meta {
 	overflow: hidden;
-	padding: 10px;
+	padding: 20px;
 	cursor: pointer;
 }
 
@@ -962,7 +935,7 @@ ul.timeline li .data .text {
 /* Gallery
  **************************************************/
 #gallery-header {
-	_color: #f7f7f7;
+	color: #f7f7f7;
 }
 
 #gallery-header h2 {
@@ -971,7 +944,7 @@ ul.timeline li .data .text {
 }
 
 #gallery-large {
-	_background: #303030;
+	background: #303030;
 	padding-top: 20px;
 }
 
