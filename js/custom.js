@@ -7,6 +7,40 @@ $.fn.exists = function () {
 $(document).ready(function(){
 
 	/*++++++++++++++++++++++++++++++++++++
+		My jquery functions
+		toggle coursework
+	++++++++++++++++++++++++++++++++++++++*/
+	$('.coursework-link').click( function() { 
+		var id = $(this).attr('id');
+
+		if(id == 'clink-1') {
+			$('#clist-1').slideToggle('slow', function(){
+			    if($(this).is(':visible')) {
+			        $('#clink-1').text('Hide coursework');
+			    } else {
+			        $('#clink-1').text('Show coursework');
+			    }
+			});
+		} else if (id == 'clink-2') {
+			$('#clist-2').slideToggle('slow', function(){
+			    if($(this).is(':visible')) {
+			        $('#clink-2').text('Hide coursework');
+			    } else {
+			        $('#clink-2').text('Show coursework');
+			    }
+			});
+		} else {
+			$('#clist-3').slideToggle('slow', function(){
+			    if($(this).is(':visible')) {
+			        $('#clink-3').text('Hide coursework');
+			    } else {
+			        $('#clink-3').text('Show coursework');
+			    }
+			});
+		}
+    });
+
+	/*++++++++++++++++++++++++++++++++++++
 		tooltips
 	++++++++++++++++++++++++++++++++++++++*/
 	$(".tooltips").tooltip();
