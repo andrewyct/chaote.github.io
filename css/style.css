@@ -55,7 +55,7 @@
 	margin-bottom:20px;
 }
 
-.img-list img {
+.img-list img { 
 	width: 30%;
 	display: inline;
 	margin-right:8px;
@@ -64,8 +64,6 @@
 	-moz-box-shadow: 0 10px 6px -6px #777;
 	box-shadow: 0 10px 6px -6px #777;
 }
-
-.list-inline #
 
 .coursework {
 	margin-top: 5px;
