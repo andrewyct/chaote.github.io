@@ -65,6 +65,10 @@
 	box-shadow: 0 10px 6px -6px #777;
 }
 
+.larger-margin img{
+	margin-right:12px;
+}
+
 .coursework {
 	margin-top: 5px;
 	margin-left: 0px;
