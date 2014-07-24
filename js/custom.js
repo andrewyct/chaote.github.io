@@ -229,9 +229,8 @@ $(document).ready(function(){
 	/*++++++++++++++++++++++++++++++++++++
 		gallery overlays and popups
 	++++++++++++++++++++++++++++++++++++++*/ 
-
 	$(".grid").on("mouseenter","li",function(){
-		new TweenLite($(this).find(".over"),0.4,{bottom:0,top:0});
+		new TweenLite($(this).find(".over"),0.4,{bottom:0,top:"80%"});
 	}).on("mouseleave","li",function(){
 		new TweenLite($(this).find(".over"),0.4,{bottom:"-100%", top:"100%"});
 	});
