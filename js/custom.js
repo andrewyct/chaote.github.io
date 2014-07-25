@@ -230,7 +230,7 @@ $(document).ready(function(){
 		gallery overlays and popups
 	++++++++++++++++++++++++++++++++++++++*/ 
 	$(".grid").on("mouseenter","li",function(){
-		new TweenLite($(this).find(".over"),0.4,{bottom:0,top:"80%"});
+		new TweenLite($(this).find(".over"),0.4,{bottom:0,top:"75%"});
 	}).on("mouseleave","li",function(){
 		new TweenLite($(this).find(".over"),0.4,{bottom:"-100%", top:"100%"});
 	});
