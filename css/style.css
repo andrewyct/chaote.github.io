@@ -102,6 +102,10 @@
     margin-bottom: 0.3em;
 }
 
+.contact-item {
+	margin-bottom: 10px;
+}
+
 /* General styles
 **************************************************/
 @font-face {
@@ -341,7 +345,7 @@ ul#navigation li.currentmenu a {
 	ul#navigation li .text {
 		padding-left: 5%;
 		margin-left: 50px;
-		line-height: 45px;
+		line-height: 66px;
 
 		-webkit-box-shadow: -3px 0 5px -4px #000;
 		box-shadow: -3px 0 5px -4px #000;
