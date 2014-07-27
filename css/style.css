@@ -332,7 +332,7 @@ ul#navigation li.currentmenu a {
 }
 
 /*ul#navigation li.external:hover .icon, ul#navigation li.currentmenu .icon{
-	color: #03cc85;
+	color: #FFD700;
 	}*/
 
 	ul#navigation li.currentmenu {
@@ -543,24 +543,25 @@ ul.ul-card li .dy {
 }
 
 ul.ul-card li .dy span {
-	padding: 7px 10px;
-	line-height: 30px;
+	/*color: #262626;*/
+	padding: 3px 10px 3px 10px;
+	line-height: 6px;
 	margin: 0;
 }
 
 /*ul.ul-card li .dy .degree {
-	background-color: #03bb7a;
+	background-color: #FFD700;
 	}*/
 
 	ul.ul-card li .dy .year {
-		/*background-color: #03cc85;*/
-		-webkit-box-shadow: -3px 0px 7px -3px rgba(68, 68, 68, 0.5);
-		box-shadow: -3px 0px 7px -3px rgba(68, 68, 68, 0.5);
+		/*background-color: #FFD700;*/
+		/*-webkit-box-shadow: 0px 0px 2px -3px rgba(68, 68, 68, 0.5);
+		box-shadow: 0px 0px 2px -3px rgba(68, 68, 68, 0.5);*/
 		margin-left: -3px !important;
 	}
 
 	ul.ul-card li .description p {
-		font-size: 16px;
+		font-size: 15px;
 		margin: 0;
 	}
 
@@ -588,7 +589,7 @@ ul.ul-dates div.dates,ul.ul-dates-gray div.dates {
 }
 
 ul.ul-dates div.dates span,ul.ul-dates-gray div.dates span {
-	/*background-color: #03cc85;*/
+	/*background-color: #FFD700;*/
 	padding: 6px;
 	display: block;
 	text-align: center;
@@ -601,7 +602,7 @@ ul.ul-dates-gray div.dates span {
 }
 
 /*ul.ul-dates div.dates span:last-child {
-	background-color: #03bb7a;
+	background-color: #FFD700;
 	}*/
 
 	ul.ul-dates-gray div.dates span:last-child {
@@ -642,18 +643,18 @@ ul.timeline {
 
 ul.timeline li .date {
 	float: left;
-	padding: 10px 15px 10px 10px;
+	padding: 4px 15px 4px 10px;
 	margin-top: 10px;
 	margin-left: -115px;
 	font-size: 15px;
 	width: 110px;
 	text-align: center;
-	/*background: #03cc85;*/
+	/*background: #FFD700;*/
 	color: #fff;
 }
 
 /*ul.timeline li.open .data {
-	background: #03bb7a;
+	background: #FFD700;
 	}*/
 
 	ul.timeline li .circle {
@@ -668,7 +669,7 @@ ul.timeline li .date {
 	}
 
 	ul.timeline li.open .circle {
-		/*background-color: #03bb7a;*/
+		/*background-color: #FFD700;*/
 		-webkit-box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
 		box-shadow: 0px 2px 6px -3px rgba(68, 68, 68, 0.5);
 	}
@@ -678,7 +679,7 @@ ul.timeline li .date {
 		margin: 10px 0px 10px 20px;
 		border-left: 10px solid;
 		padding: 18px 20px;
-		font-size: 16px;
+		font-size: 15px;
 
 		-webkit-box-shadow: 0px 3px 3px -3px #ccc;
 		box-shadow: 0px 3px 3px -3px #ccc;
@@ -686,7 +687,7 @@ ul.timeline li .date {
 	}
 
 	ul.timeline li.open .data {
-		/*border-color: #03bb7a;*/
+		/*border-color: #FFD700;*/
 		background: #fff;
 	}
 
@@ -729,7 +730,7 @@ ul.timeline li .data .text {
 	left: -100%;
 	width: 100%;
 	height: 100%;
-	/*background: #03cc85;*/
+	/*background: #FFD700;*/
 	cursor: pointer;
 	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=70)";
 	filter: alpha(opacity=70);
@@ -763,7 +764,7 @@ ul.timeline li .data .text {
  * lab partnerts
  **************************************************/
  #labp-heads-wrap {
- 	/*background-color: #03bb7a;*/
+ 	/*background-color: #FFD700;*/
  	position: relative;
  	height: 180px; 
  }
@@ -777,7 +778,7 @@ ul.timeline li .data .text {
  	position: absolute;
  	pointer-events: none;
  	border-color: rgba(247, 103, 103, 0);
- 	/*border-top-color: #03bb7a;*/
+ 	/*border-top-color: #FFD700;*/
  	border-width: 15px;
  	left: 50%;
  	margin-left: -15px;
@@ -941,7 +942,7 @@ ul.timeline li .data .text {
 }
 
 /*.cd-active.cd-dropdown > span {
-	color: #03cc85;
+	color: #FFD700;
 	}*/
 
 	.cd-active.cd-dropdown > span,.cd-active.cd-dropdown ul li span {
@@ -958,7 +959,7 @@ ul.timeline li .data .text {
 	}
 
 	.cd-active.cd-dropdown ul li span:hover {
-		/*background: #03cc85;*/
+		/*background: #FFD700;*/
 		color: #fff;
 	}
 
@@ -1030,7 +1031,7 @@ ul.timeline li .data .text {
 }
 
 .pitems .pubmain .pubassets a:hover,.pitems .pubmain .pubassets a:focus,.pitems .pubmain .pubassets a.pubcollapse {
-	/*background: #03cc85;*/
+	/*background: #FFD700;*/
 	color: #fff;
 }
 
@@ -1234,7 +1235,7 @@ ul.grid li a,ul.grid li img {
 }
 
 /*.contact-office .icon-huge, .contact-lab .icon-huge{
-	color: #03cc85;
+	color: #FFD700;
 	}*/
 
 
