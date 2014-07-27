@@ -38,20 +38,22 @@ ul.timeline li .data {
 /* socpndary color 
 **************************************************/
 ul.ul-card li .dy .degree {
-	background-color: #AAD0E1;
+	background-color: #0A5577;
 }
 ul.ul-dates div.dates span:last-child {
-	background-color: #AAD0E1;
+	background-color: #0A5577;
 }
 ul.timeline li.open .circle {
-	background-color: #AAD0E1;
+	background-color: #0A5577;
 }
 ul.timeline li.open .data {
-	border-color: #AAD0E1;
+	border-color: #0A5577;
 }
 #labp-heads-wrap {
-	background-color: #AAD0E1;
+	background-color: #0A5577;
 }
 #labp-heads-wrap:after{
-	border-top-color: #AAD0E1;
+	border-top-color: #0A5577;
 }
+
+/*AAD0E1*/
