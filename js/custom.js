@@ -29,7 +29,7 @@ $(document).ready(function(){
 			        $('#clink-2').text('Show coursework');
 			    }
 			});
-		} else {
+		} else if (id == 'clink-3') {
 			$('#clist-3').slideToggle('slow', function(){
 			    if($(this).is(':visible')) {
 			        $('#clink-3').text('Hide coursework');
@@ -37,7 +37,15 @@ $(document).ready(function(){
 			        $('#clink-3').text('Show coursework');
 			    }
 			});
-		}
+		} else if (id == 'clink-4') {
+			$('#clist-4').slideToggle('slow', function(){
+			    if($(this).is(':visible')) {
+			        $('#clink-4').text('Hide coursework');
+			    } else {
+			        $('#clink-4').text('Show coursework');
+			    }
+			});
+		} 
     });
 
 	/*++++++++++++++++++++++++++++++++++++
